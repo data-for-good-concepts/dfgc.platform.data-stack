@@ -1,6 +1,6 @@
 resource "google_service_account" "sa_tf_admin" {
   account_id   = "tf-admin"
-  display_name = "Athlete Centric Terraform Admin Service Account"
+  display_name = "Terraform Admin Service Account"
 }
 
 resource "google_service_account_iam_member" "sa_tf_admin_iam" {
