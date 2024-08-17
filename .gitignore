@@ -1,0 +1,29 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform variables files
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore Terraform working directory
+.terraform
+
+# Ignore Terraform backend configuration files
+backend-config.hcl
+
+# Do not ignore .terraform.lock.hcl
+!.terraform.lock.hcl
+
+# Ignore MacOS system files
+.DS_Store
